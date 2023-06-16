@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 /**
- * main - A program to print all single digit numbers and seperates each number with comma and white-space using putchar.
+ * main - A program to print all single digit numbers
+ * and seperates each number with comma and white-space using putchar.
  *
  * Return: Always 0 (Success)
 */
