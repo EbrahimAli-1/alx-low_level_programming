@@ -6,14 +6,19 @@
  *
  * Return: Always 0 (Success)
 */
-
+i
 int main(void)
 {
 	int a;
 
-	for (a = 0; a < 16; a++)
+	for (a = 0; a < 10; a++)
 	{
 		putchar('0' + a);
+	}
+
+	for (a = 'a'; a <= 'f'; a++)
+	{
+		putchar(a);
 	}
 	putchar('\n');
 
