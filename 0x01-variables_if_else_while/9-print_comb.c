@@ -20,7 +20,7 @@ int main(void)
 		putchar(',');
 		putchar(' ');
 
-		if (a ==9)
+		if (a == 9)
 			break;
 	}
 	putchar('\n');
