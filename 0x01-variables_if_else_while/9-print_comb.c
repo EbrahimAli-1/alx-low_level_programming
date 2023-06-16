@@ -19,6 +19,9 @@ int main(void)
 		putchar('0' + a);
 		putchar(',');
 		putchar(' ');
+
+		if (a ==9)
+			break;
 	}
 	putchar('\n');
 
