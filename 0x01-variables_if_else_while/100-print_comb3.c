@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 /**
- * main - A program that prints all possible different combinations of two digits using putchar.
+ * main - A program that prints all possible
+ * different combinations of two digits using putchar.
  *
  * Return: Always 0 (Success)
 */
