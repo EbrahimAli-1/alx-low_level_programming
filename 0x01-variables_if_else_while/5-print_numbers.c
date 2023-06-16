@@ -12,12 +12,9 @@ int main(void)
 {
 	int a;
 
-	for (a = 0; a <= 10; a++)
+	for (a = 0; a < 10; a++)
 	{
-		if (a % 2 != 0)
-			printf("%d", a);
-		else
-			continue;
+		printf("%d", a);
 	}
 	return (0);
 }
