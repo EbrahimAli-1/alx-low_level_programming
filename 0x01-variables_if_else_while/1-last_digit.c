@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - A program that print the last digit of random variable and if it is greater than 5, equal to 0 or less than 6 but greater than 0
+ * main - A program that print the last digit of random variable
+ * and if it is greater than 5, equal to 0 or less than 6 but greater than 0 .
  *
  * Return: Always 0 (Success)
  */
@@ -16,6 +17,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	int digit;
+
 	digit = n % 10;
 
 	if (digit > 5)
