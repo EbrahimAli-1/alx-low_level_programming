@@ -14,7 +14,7 @@ int main(void)
 {
 	char l, u;
 
-	for (l = 'a',u = 'A'; l <= "z",u <= "Z"; l++,u++)
+	for (l = 'a', u = 'A'; l <= "z", u <= "Z"; l++, u++)
 	{
 		putchar(l);
 		putchar(u);
