@@ -10,8 +10,8 @@
 
 int main(void)
 {
-	int wrd[] = "_putchar";
-	char ch;
+	char wrd[] = "_putchar";
+	int ch;
 
 	for (ch = 0; ch <= wrd.length; ch++)
 	{
