@@ -10,7 +10,13 @@
 
 int main(void)
 {
-	putchar("_putchar");
-	putchar('\n');
+	int wrd[] = "_putchar";
+	char ch;
+
+	for (ch = 0; ch <= wrd.length; ch++)
+	{
+		_putchar(wrd[ch]);
+	}
+	_putchar('\n');
 	return (0);
 }
