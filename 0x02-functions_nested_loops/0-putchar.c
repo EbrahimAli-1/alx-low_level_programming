@@ -13,7 +13,7 @@ int main(void)
 	char wrd[] = "_putchar";
 	int ch;
 
-	for (ch = 0; ch <= wrd.length; ch++)
+	for (ch = 0; ch <= 8; ch++)
 	{
 		_putchar(wrd[ch]);
 	}
