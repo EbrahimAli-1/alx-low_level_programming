@@ -1,6 +1,6 @@
 #include <strio.h>
 #include <stdlib.h>
-#include <main.h>
+#include "main.h"
 
 /**
  * main - A program to print _putchar.
