@@ -7,10 +7,6 @@ int main(void)
 {
 int i;
 i = 0;
-if (i == 0) {
-	break;
-	positive_or_negative(i);
-} else
 positive_or_negative(i);
 return (0);
 }
